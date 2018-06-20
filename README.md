@@ -283,7 +283,7 @@ plotit(k3, 'k=3')
 plotit(k6, 'k=6')
 ```
 
-# GWR (지리가중회귀)
+# GWR - 지리적 가중회귀
     - 회귀 모델은 일반적으로 global regression 이다.
     - 일반화 가산 모델은 local regression의 대표적인 예이다.
     - 여기서 "로컬"은 예측값을 나타낸다.
@@ -295,7 +295,7 @@ plotit(k6, 'k=6')
       데이터 탐색 기술이다.
     
 
-**(ex) 캘리포니아 강수량**
+**(ex) 캘리포니아 강수량 예제**
 
 1. 데이터 불려오기
 
@@ -354,7 +354,7 @@ s <- stack(intercept, slope)
 names(s) <- c('intercept', 'slope')
 plot(s)
 ```
-**(ex) 캘리포니아 주택 가격**
+**(ex) 캘리포니아 주택 가격 예제**
 1. 데이터 불려오기
 
 http://rspatial.org/data/analysis/gwr.zip
